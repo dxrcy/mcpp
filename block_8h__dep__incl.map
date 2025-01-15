@@ -1,0 +1,8 @@
+<map id="include/mcpp/block.h" name="include/mcpp/block.h">
+<area shape="rect" id="Node000001" title="BlockType class." alt="" coords="6,5,166,31"/>
+<area shape="rect" id="Node000002" href="$mcpp_8h.html" title="MinecraftConnection class." alt="" coords="5,152,167,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,44,59,79,58,99,63,118,80,150,75,153,58,120,53,99,54,78,69,42"/>
+<area shape="rect" id="Node000003" href="$util_8h.html" title="Coordinate class." alt="" coords="69,79,215,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="106,40,135,77,131,80,102,43"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="126,117,97,154,93,150,122,113"/>
+</map>

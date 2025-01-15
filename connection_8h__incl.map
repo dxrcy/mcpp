@@ -1,0 +1,11 @@
+<map id="include/mcpp/connection.h" name="include/mcpp/connection.h">
+<area shape="rect" id="Node000001" title="SocketConnection class." alt="" coords="89,5,285,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,72,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,33,76,75,74,70,162,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="96,79,176,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,33,154,69,150,66,176,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="200,79,275,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="197,29,223,66,219,69,193,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="299,79,357,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="211,28,294,70,292,75,208,33"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="include/mcpp/util.h" name="include/mcpp/util.h">
+<area shape="rect" id="Node000001" title="Coordinate class." alt="" coords="112,5,259,31"/>
+<area shape="rect" id="Node000002" href="$block_8h.html" title="BlockType class." alt="" coords="5,79,75,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,33,77,75,75,70,161,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="38,152,114,177"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="178,33,141,80,95,142,90,139,137,77,174,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="150,79,221,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,31,188,65,183,65,183,31"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="245,79,315,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="202,29,255,68,252,72,199,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="339,79,402,104"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="216,28,329,71,327,76,214,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="48,103,66,138,62,141,44,106"/>
+</map>
