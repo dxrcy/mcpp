@@ -23,7 +23,7 @@ namespace mcpp {
 // Forward declare to avoid polluting namespace
 class SocketConnection;
 
-const uint16_t MCPP_PORT = 4711;
+const char* const MCPP_PATH = "/tmp/elci-proxy";
 
 class MinecraftConnection {
 private:
@@ -34,8 +34,10 @@ public:
   /**
    * @brief Represents the main endpoint for interaction with the minecraft
    * world.
+   *
+   * @param path File path to Unix Socket to run on
    */
-  explicit MinecraftConnection();
+  explicit MinecraftConnection(const std::string& path = MCPP_PATH);
 
   // Declared here, defaulted in mcpp.cpp to allow for forward declare of
   // SocketConnection

@@ -9,7 +9,7 @@
 #include <stdexcept>
 
 namespace mcpp {
-SocketConnection::SocketConnection() {
+SocketConnection::SocketConnection(const std::string& path) {
   // Using std libs only to avoid dependency on socket lib
   _socket_handle = socket(AF_UNIX, SOCK_STREAM, 0);
   if (_socket_handle == -1) {
@@ -18,7 +18,7 @@ SocketConnection::SocketConnection() {
 
   sockaddr_un server_addr{};
   server_addr.sun_family = AF_UNIX;
-  strcpy(server_addr.sun_path, "/tmp/elci-proxy");
+  strcpy(server_addr.sun_path, path.c_str());
 
   if (connect(_socket_handle, reinterpret_cast<struct sockaddr*>(&server_addr),
               sizeof(server_addr)) < 0) {

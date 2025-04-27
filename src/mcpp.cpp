@@ -10,8 +10,8 @@ using namespace std::string_literals;
 
 namespace mcpp {
 
-MinecraftConnection::MinecraftConnection() {
-  _conn = std::make_unique<SocketConnection>();
+MinecraftConnection::MinecraftConnection(const std::string& path) {
+  _conn = std::make_unique<SocketConnection>(path);
 }
 
 MinecraftConnection::~MinecraftConnection() = default;

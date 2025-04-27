@@ -21,7 +21,7 @@ private:
   std::string _last_sent;
 
 public:
-  SocketConnection();
+  SocketConnection(const std::string& path);
 
   void send(const std::string& data_string);
 
