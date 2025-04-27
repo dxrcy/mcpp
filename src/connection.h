@@ -20,10 +20,8 @@ private:
   int _socket_handle;
   std::string _last_sent;
 
-  static std::string resolve_hostname(const std::string& hostname);
-
 public:
-  SocketConnection(const std::string& address_str, uint16_t port);
+  SocketConnection();
 
   void send(const std::string& data_string);
 

@@ -34,12 +34,8 @@ public:
   /**
    * @brief Represents the main endpoint for interaction with the minecraft
    * world.
-   *
-   * @param address String address in IPV4 format, defaults to "localhost"
-   * @param port Integer port to run on, defaults to 4711 as that is the port
-   * for ELCI
    */
-  explicit MinecraftConnection(const std::string& address = "localhost", uint16_t port = MCPP_PORT);
+  explicit MinecraftConnection();
 
   // Declared here, defaulted in mcpp.cpp to allow for forward declare of
   // SocketConnection

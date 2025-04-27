@@ -8,7 +8,7 @@ using namespace std::string_literals;
 using namespace mcpp;
 
 // You may need to set the address to your $(hostname).local if running on WSL2.
-SocketConnection tcp_conn("localhost", mcpp::MCPP_PORT);
+SocketConnection tcp_conn;
 MinecraftConnection mc;
 
 /*
